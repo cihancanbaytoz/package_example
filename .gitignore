@@ -1,0 +1,52 @@
+# General
+.DS_Store
+
+# Dart / Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dev
+.fvm/
+
+# Build outputs
+build/
+coverage/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/*.keystore
+android/app/*.jks
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/.symlinks/
+ios/Pods/
+**/xcuserdata/
+
+# macOS
+macos/Flutter/Flutter-Generated.xcconfig
+macos/Flutter/ephemeral/
+**/xcuserdata/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Web (rare transient artifacts)
+web/.dart_tool/
+
